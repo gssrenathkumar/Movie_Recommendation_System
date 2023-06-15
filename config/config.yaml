@@ -1,0 +1,8 @@
+recommendation_root: recommendation_data
+
+
+data_ingestion:
+  root_dir: recommendation_data/data_ingestion
+  source_URL: https://github.com/gssrenathkumar/Dataset/raw/main/Movie_Recommendation_Dataset.zip
+  local_data_file: recommendation_data/data_ingestion/data.zip
+  unzip_dir: recommendation_data/data_ingestion
