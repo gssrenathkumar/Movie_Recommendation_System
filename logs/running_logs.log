@@ -162,7 +162,7 @@ box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root
 [2023-06-15 10:30:43,270 : INFO: common: yaml file: params.yaml loaded successfully]
 [2023-06-15 10:30:43,273 : INFO: common: Created directory at: recommendation_data]
 [2023-06-15 10:30:43,274 : INFO: common: Created directory at: recommendation_data/data_ingestion]
-[2023-06-15 10:30:45,402 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+[2023-06-15 10:30:45,402 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info:
 Connection: close
 Content-Length: 8842458
 Cache-Control: max-age=300
@@ -197,7 +197,7 @@ x===========x]
 [2023-06-15 10:32:46,242 : INFO: common: yaml file: params.yaml loaded successfully]
 [2023-06-15 10:32:46,243 : INFO: common: Created directory at: recommendation_data]
 [2023-06-15 10:32:46,244 : INFO: common: Created directory at: recommendation_data/data_ingestion]
-[2023-06-15 10:32:47,481 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+[2023-06-15 10:32:47,481 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info:
 Connection: close
 Content-Length: 8842458
 Cache-Control: max-age=300
@@ -225,5 +225,824 @@ Source-Age: 122
 
 ]
 [2023-06-15 10:32:47,788 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 10:37:57,282 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 10:37:57,283 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 10:37:57,284 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 10:37:57,285 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 10:37:57,286 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 10:37:59,414 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info:
+Connection: close
+Content-Length: 8842458
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "950db06cc1904f78fdb5f20b6743e7f2bcc988e04b790bd45a2cb7a676ec7ecf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1616:928F:2E6673:3734C6:648A9AFA
+Accept-Ranges: bytes
+Date: Thu, 15 Jun 2023 05:07:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10231-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1686805677.551032,VS0,VE292
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: be49bfb7e2f292c164e1d35334fa1b1038d59c0f
+Expires: Thu, 15 Jun 2023 05:12:56 GMT
+Source-Age: 0
+
+]
+[2023-06-15 10:37:59,748 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:38:13,738 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:38:13,738 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:38:13,738 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:38:13,738 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:38:13,738 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:38:38,924 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8842458
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "950db06cc1904f78fdb5f20b6743e7f2bcc988e04b790bd45a2cb7a676ec7ecf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DFE2:2DE5:365FCC:414CCD:648AD4FE
+Accept-Ranges: bytes
+Date: Thu, 15 Jun 2023 09:08:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10245-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686820095.538319,VS0,VE1046
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cc737776105394dc31ac43e86f59964c33e0cd63
+Expires: Thu, 15 Jun 2023 09:13:15 GMT
+Source-Age: 1
+
+]
+[2023-06-15 14:38:39,196 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:38:39,196 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:38:39,196 : ERROR: main: name 'DataValidationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\srena\Downloads\Movie_Recommendation_System\main.py", line 20, in <module>
+    data_validation = DataValidationTrainingPipeline()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DataValidationTrainingPipeline' is not defined
+[2023-06-15 14:39:14,354 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:39:14,354 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:39:14,354 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:39:14,354 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:39:14,354 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:39:14,354 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:39:14,688 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:39:14,688 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:39:14,703 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:39:14,703 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:39:14,703 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:39:14,703 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:39:14,703 : ERROR: main: DataValidationConfig.__init__() missing 1 required positional argument: 'ALL_REQUIRED_FILES']
+Traceback (most recent call last):
+  File "C:\Users\srena\Downloads\Movie_Recommendation_System\main.py", line 22, in <module>
+    data_validation.main()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\pipeline\stage_02_data_validation.py", line 12, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\config\configuration.py", line 35, in get_data_validation_config
+    data_validation_config = DataValidationConfig(
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataValidationConfig.__init__() missing 1 required positional argument: 'ALL_REQUIRED_FILES'
+[2023-06-15 14:41:58,461 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:41:58,462 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:41:58,462 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:41:58,462 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:41:58,462 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:41:58,462 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:41:58,765 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:41:58,765 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:41:58,765 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:41:58,781 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:41:58,781 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:41:58,781 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:41:58,781 : ERROR: main: [WinError 3] The system cannot find the path specified: 'tmdb_5000_credits.csv\\tmdb_5000_movies.csv']
+Traceback (most recent call last):
+  File "C:\Users\srena\Downloads\Movie_Recommendation_System\main.py", line 22, in <module>
+    data_validation.main()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation.validate_all_files_exist()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\components\data_validation.py", line 29, in validate_all_files_exist
+    raise e
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\components\data_validation.py", line 14, in validate_all_files_exist
+    all_files = os.listdir(os.path.join("tmdb_5000_credits.csv", "tmdb_5000_movies.csv"))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'tmdb_5000_credits.csv\\tmdb_5000_movies.csv'
+[2023-06-15 14:44:11,301 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:44:11,301 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:44:11,301 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:44:11,301 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:44:11,301 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:44:11,301 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:44:11,572 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:44:11,572 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:44:11,572 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:44:11,572 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:44:11,572 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:44:11,572 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:44:11,572 : ERROR: main: [WinError 267] The directory name is invalid: 'recommendation_data\\data_ingestion\\tmdb_5000_credits.csv']
+Traceback (most recent call last):
+  File "C:\Users\srena\Downloads\Movie_Recommendation_System\main.py", line 22, in <module>
+    data_validation.main()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation.validate_all_files_exist()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\components\data_validation.py", line 29, in validate_all_files_exist
+    raise e
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\components\data_validation.py", line 14, in validate_all_files_exist
+    all_files = os.listdir(os.path.join("recommendation_data","data_ingestion","tmdb_5000_credits.csv"))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotADirectoryError: [WinError 267] The directory name is invalid: 'recommendation_data\\data_ingestion\\tmdb_5000_credits.csv'
+[2023-06-15 14:45:02,501 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:45:02,501 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:45:02,501 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:45:02,501 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:45:02,501 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:45:02,501 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:45:02,772 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:45:02,772 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:45:02,772 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:45:02,772 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:45:02,772 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:45:02,772 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:45:02,788 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:45:53,313 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:45:53,313 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:45:53,328 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:45:53,328 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:45:53,328 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:45:53,328 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:45:53,621 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:45:53,621 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:45:53,621 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:45:53,621 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:45:53,637 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:45:53,637 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:45:53,637 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:46:07,395 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:46:07,402 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:46:07,402 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:46:07,402 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:46:07,402 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:46:07,402 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:46:07,673 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:46:07,673 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:46:07,673 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:46:07,673 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:46:07,689 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:46:07,689 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:46:07,706 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:48:54,572 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:48:54,587 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:48:54,587 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:48:54,587 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:48:54,587 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:48:54,587 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:48:54,922 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:48:54,922 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:48:54,922 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:48:54,922 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:48:54,922 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:48:54,938 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:48:54,953 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:49:57,258 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:49:57,274 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:49:57,274 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:49:57,274 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:49:57,274 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:49:57,274 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:49:57,648 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:49:57,648 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:49:57,648 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:49:57,648 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:49:57,648 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:49:57,648 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:49:57,664 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:50:35,789 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:50:35,789 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:50:35,789 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:50:35,789 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:50:35,789 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:50:35,789 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:50:36,077 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:50:36,077 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:50:36,077 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:50:36,077 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:50:36,077 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:50:36,077 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:50:36,077 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:54:34,943 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:54:34,943 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:54:34,943 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:54:34,943 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:54:34,943 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:54:34,943 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:54:35,229 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:54:35,229 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:54:35,229 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:54:35,229 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:54:35,229 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:54:35,229 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:54:35,229 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:54:46,713 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:54:46,729 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:54:46,729 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:54:46,729 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:54:46,729 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:54:46,729 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:54:47,052 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:54:47,052 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:54:47,052 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:54:47,052 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:54:47,052 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:54:47,052 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:54:47,052 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:55:22,933 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:55:22,933 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:55:22,933 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:55:22,933 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:55:22,933 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:55:22,933 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:55:23,199 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:55:23,199 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:55:23,214 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:55:23,214 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:55:23,214 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:55:23,214 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:55:23,214 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:55:37,243 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:55:37,243 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:55:37,243 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:55:37,243 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:55:37,243 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:55:37,243 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:55:37,519 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:55:37,519 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:55:37,519 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:55:37,519 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:55:37,519 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:55:37,535 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:55:37,535 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:56:06,283 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:56:06,283 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:56:06,283 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:56:06,283 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:56:06,283 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:56:06,283 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:56:06,611 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:56:06,611 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:56:06,627 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:56:06,627 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:56:06,627 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:56:06,627 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:56:06,627 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:56:24,173 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:56:24,173 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:56:24,173 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:56:24,173 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:56:24,173 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:56:24,173 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:56:24,427 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:56:24,443 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:56:24,443 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:56:24,443 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:56:24,443 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:56:24,443 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:56:24,443 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:58:18,019 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 14:58:18,019 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:58:18,019 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:58:18,019 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:58:18,019 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 14:58:18,019 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 14:58:18,290 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:58:18,290 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:58:18,290 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:58:18,290 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:58:18,290 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:58:18,290 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:58:18,290 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:59:28,225 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:59:28,225 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:59:28,225 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:59:28,225 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:59:28,240 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:59:28,240 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:59:45,133 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:59:45,133 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:59:45,133 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:59:45,149 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:59:45,149 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:59:45,149 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 14:59:51,488 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 14:59:51,488 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 14:59:51,488 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 14:59:51,488 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 14:59:51,488 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 14:59:51,503 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:00:36,022 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:00:36,022 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:00:36,022 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:00:36,022 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:00:36,022 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:00:44,175 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8842458
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "950db06cc1904f78fdb5f20b6743e7f2bcc988e04b790bd45a2cb7a676ec7ecf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DFE2:2DE5:365FCC:414CCD:648AD4FE
+Accept-Ranges: bytes
+Date: Thu, 15 Jun 2023 09:30:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10244-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1686821437.738194,VS0,VE347
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 27fc566acbc4a8426f53dc5967027db50aad77d3
+Expires: Thu, 15 Jun 2023 09:35:37 GMT
+Source-Age: 0
+
+]
+[2023-06-15 15:00:44,470 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:00:44,470 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:00:44,470 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:00:44,486 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:00:44,486 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:00:44,486 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:00:44,486 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:02:08,004 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:02:08,007 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:02:08,007 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:02:08,007 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:02:08,007 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:02:08,007 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 15:02:08,273 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:02:08,273 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:02:08,273 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:02:08,273 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:02:08,273 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:02:08,273 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:02:08,273 : ERROR: main: [WinError 267] The directory name is invalid: 'recommendation_data\\data_ingestion\\tmdb_5000_credits.csv']
+Traceback (most recent call last):
+  File "C:\Users\srena\Downloads\Movie_Recommendation_System\main.py", line 22, in <module>
+    data_validation.main()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation.validate_all_files_exist()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\components\data_validation.py", line 30, in validate_all_files_exist
+    raise e
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\components\data_validation.py", line 14, in validate_all_files_exist
+    all_files = os.listdir(os.path.join("recommendation_data", "data_ingestion", "tmdb_5000_credits.csv"))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NotADirectoryError: [WinError 267] The directory name is invalid: 'recommendation_data\\data_ingestion\\tmdb_5000_credits.csv'
+[2023-06-15 15:03:15,775 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:03:15,782 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:03:15,782 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:03:15,782 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:03:15,782 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:03:15,782 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 15:03:16,110 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:03:16,110 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:03:16,110 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:03:16,126 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:03:16,126 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:03:16,126 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:03:16,142 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:07:28,578 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:07:28,578 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:07:28,578 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:07:28,578 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:07:28,578 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:07:53,867 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8842458
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "950db06cc1904f78fdb5f20b6743e7f2bcc988e04b790bd45a2cb7a676ec7ecf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DFE2:2DE5:365FCC:414CCD:648AD4FE
+Accept-Ranges: bytes
+Date: Thu, 15 Jun 2023 09:37:29 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10226-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1686821849.434606,VS0,VE318
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4a9fb1c6aa9a9b91edc9cc07cbf72864ef737ecf
+Expires: Thu, 15 Jun 2023 09:42:29 GMT
+Source-Age: 0
+
+]
+[2023-06-15 15:07:54,133 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:11:21,503 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:11:21,503 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:11:21,503 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:11:21,503 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:11:21,503 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:11:21,503 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 15:11:21,784 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:11:21,784 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:11:21,784 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:11:21,784 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:11:21,784 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:11:21,784 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:11:21,799 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:12:33,669 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:12:33,669 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:12:33,669 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:12:33,669 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:12:33,669 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:12:46,682 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8842458
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "950db06cc1904f78fdb5f20b6743e7f2bcc988e04b790bd45a2cb7a676ec7ecf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E274:0F03:596F05:6ACBC8:648ADD0A
+Accept-Ranges: bytes
+Date: Thu, 15 Jun 2023 09:42:35 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10233-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686822155.545323,VS0,VE1037
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: abb996af391dfaef1178e70a55482d78d9e1cbad
+Expires: Thu, 15 Jun 2023 09:47:35 GMT
+Source-Age: 1
+
+]
+[2023-06-15 15:12:46,954 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:12:46,954 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:12:46,954 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:12:46,954 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:12:46,954 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:12:46,954 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:12:46,970 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:17:01,486 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:17:01,486 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:17:01,502 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:17:01,502 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:17:01,502 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:17:15,642 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8842458
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "950db06cc1904f78fdb5f20b6743e7f2bcc988e04b790bd45a2cb7a676ec7ecf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E274:0F03:596F05:6ACBC8:648ADD0A
+Accept-Ranges: bytes
+Date: Thu, 15 Jun 2023 09:47:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10232-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1686822422.169033,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d27f83e8d29f7bcb06b4060512b1b31b0345eb4a
+Expires: Thu, 15 Jun 2023 09:52:02 GMT
+Source-Age: 267
+
+]
+[2023-06-15 15:17:15,914 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:17:15,914 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:17:15,944 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:17:15,944 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:17:15,944 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:17:15,944 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:17:15,960 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:19:55,909 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:19:55,909 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:19:55,909 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:19:55,909 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:19:55,909 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:20:08,079 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8842458
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "950db06cc1904f78fdb5f20b6743e7f2bcc988e04b790bd45a2cb7a676ec7ecf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E274:0F03:596F05:6ACBC8:648ADD0A
+Accept-Ranges: bytes
+Date: Thu, 15 Jun 2023 09:49:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10251-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1686822597.574089,VS0,VE283
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b685dc7a43bae334dbfb29165d15dcd0bd97404d
+Expires: Thu, 15 Jun 2023 09:54:56 GMT
+Source-Age: 0
+
+]
+[2023-06-15 15:20:08,391 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:20:08,391 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:20:08,391 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:20:08,391 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:20:08,391 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:20:08,391 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:20:08,407 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:20:45,674 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:20:45,689 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:20:45,689 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:20:45,689 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:20:45,689 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:20:45,689 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 15:20:45,992 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:20:45,992 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:20:45,992 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:20:45,992 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:20:45,992 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:20:45,992 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:20:46,023 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:21:38,984 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:21:38,984 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:21:38,984 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:21:38,984 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:21:38,984 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:21:38,984 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 15:21:39,302 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:21:39,302 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:21:39,302 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:21:39,302 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:21:39,302 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:21:39,302 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:21:39,318 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:21:54,774 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:21:54,774 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:21:54,774 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:21:54,789 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:21:54,789 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:21:54,789 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 15:21:55,070 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:21:55,070 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:21:55,070 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:21:55,070 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:21:55,070 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:21:55,070 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:21:55,086 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:23:35,826 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:23:35,826 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:23:35,826 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:23:35,826 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:23:35,826 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:23:35,826 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 15:23:36,212 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:23:36,212 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:23:36,212 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:23:36,212 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:23:36,212 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:23:36,228 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:23:36,244 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:25:12,639 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:25:12,655 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:25:12,655 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:25:12,655 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:25:12,655 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:25:12,655 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 15:25:12,996 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:25:12,996 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:25:12,996 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:25:12,996 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:25:12,996 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:25:12,996 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:25:12,996 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:27:26,046 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:27:26,046 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:27:26,046 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:27:26,046 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:27:26,046 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:27:26,046 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:28:10,640 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:28:10,640 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:28:10,640 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:28:10,640 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:28:10,640 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:28:10,640 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 15:28:10,921 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:28:10,921 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:28:10,921 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:28:10,921 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:28:10,921 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:28:10,921 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:28:10,937 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:28:57,161 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 15:28:57,161 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:28:57,161 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:28:57,161 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:28:57,161 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 15:29:17,981 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8842458
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "950db06cc1904f78fdb5f20b6743e7f2bcc988e04b790bd45a2cb7a676ec7ecf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E274:0F03:596F05:6ACBC8:648ADD0A
+Accept-Ranges: bytes
+Date: Thu, 15 Jun 2023 09:58:58 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10230-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1686823138.832449,VS0,VE290
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 93fcff0f50546834bc8a02567d6ffd7466c2522b
+Expires: Thu, 15 Jun 2023 10:03:58 GMT
+Source-Age: 0
+
+]
+[2023-06-15 15:29:18,237 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 15:29:18,237 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 15:29:18,252 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 15:29:18,252 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 15:29:18,252 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 15:29:18,252 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 15:29:18,252 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
 
 x===========x]
