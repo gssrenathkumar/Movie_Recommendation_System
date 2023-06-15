@@ -2552,3 +2552,639 @@ x===========x]
 [2023-06-15 21:40:50,257 : INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<<<
 
 x===========x]
+[2023-06-15 22:45:20,310 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 22:45:20,311 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:45:20,312 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:45:20,312 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:45:20,313 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 22:45:20,313 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 22:45:20,421 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:45:20,422 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 22:45:20,423 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:45:20,423 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:45:20,424 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:45:20,424 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 22:45:20,425 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:45:20,425 : INFO: main: >>>> stage Data Transformation stage started <<<<<]
+[2023-06-15 22:45:20,426 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:45:20,427 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:45:20,427 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:45:20,427 : INFO: common: Created directory at: recommendation_data/data_transformation/dataset]
+[2023-06-15 22:45:25,183 : INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:45:25,184 : INFO: main: *******************]
+[2023-06-15 22:45:25,184 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:45:25,185 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:45:25,186 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:45:25,186 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:45:25,186 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 22:45:25,186 : ERROR: main: "'ConfigBox' object has no attribute 'max_features'"]
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'max_features'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'max_features'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'max_features'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'max_features'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'max_features'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'max_features'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'max_features'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\main.py", line 50, in <module>
+    model_trainer.main()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\pipeline\stage_04_model_trainer.py", line 12, in main
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\config\configuration.py", line 61, in get_model_trainer_config
+    max_features=config.max_features,
+                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'max_features'"
+[2023-06-15 22:47:25,412 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 22:47:25,413 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:47:25,414 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:47:25,414 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:47:25,414 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 22:47:25,414 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 22:47:25,519 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:47:25,520 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 22:47:25,521 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:47:25,521 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:47:25,522 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:47:25,522 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 22:47:25,523 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:47:25,523 : INFO: main: >>>> stage Data Transformation stage started <<<<<]
+[2023-06-15 22:47:25,524 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:47:25,525 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:47:25,525 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:47:25,525 : INFO: common: Created directory at: recommendation_data/data_transformation/dataset]
+[2023-06-15 22:47:30,286 : INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:47:30,286 : INFO: main: *******************]
+[2023-06-15 22:47:30,286 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:47:30,288 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:47:30,288 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:47:30,289 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:47:30,289 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 22:47:30,289 : ERROR: main: "'ConfigBox' object has no attribute 'max_features'"]
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'max_features'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'max_features'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'max_features'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'max_features'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'max_features'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'max_features'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'max_features'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\main.py", line 50, in <module>
+    model_trainer.main()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\pipeline\stage_04_model_trainer.py", line 12, in main
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\config\configuration.py", line 61, in get_model_trainer_config
+    max_features=config.max_features,
+                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'max_features'"
+[2023-06-15 22:48:40,803 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 22:48:40,805 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:48:40,805 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:48:40,805 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:48:40,806 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 22:48:40,806 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 22:48:40,911 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:48:40,911 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 22:48:40,913 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:48:40,913 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:48:40,913 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:48:40,914 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 22:48:40,915 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:48:40,915 : INFO: main: >>>> stage Data Transformation stage started <<<<<]
+[2023-06-15 22:48:40,916 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:48:40,916 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:48:40,917 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:48:40,917 : INFO: common: Created directory at: recommendation_data/data_transformation/dataset]
+[2023-06-15 22:48:45,730 : INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:48:45,731 : INFO: main: *******************]
+[2023-06-15 22:48:45,731 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:48:45,732 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:48:45,732 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:48:45,733 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:48:45,733 : ERROR: main: "'ConfigBox' object has no attribute 'trainingarguments'"]
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'TrainingArguments'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'TrainingArguments'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'TrainingArguments'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'TrainingArguments'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'trainingarguments'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'trainingarguments'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'trainingarguments'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\main.py", line 50, in <module>
+    model_trainer.main()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\pipeline\stage_04_model_trainer.py", line 12, in main
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\config\configuration.py", line 57, in get_model_trainer_config
+    params = self.params.TrainingArguments
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'trainingarguments'"
+[2023-06-15 22:49:14,419 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 22:49:14,420 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:49:14,421 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:49:14,421 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:49:14,422 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 22:49:14,422 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-15 22:49:14,528 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:49:14,529 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 22:49:14,530 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:49:14,530 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:49:14,531 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:49:14,531 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 22:49:14,532 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:49:14,532 : INFO: main: >>>> stage Data Transformation stage started <<<<<]
+[2023-06-15 22:49:14,533 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:49:14,533 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:49:14,534 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:49:14,534 : INFO: common: Created directory at: recommendation_data/data_transformation/dataset]
+[2023-06-15 22:49:19,260 : INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 22:49:19,261 : INFO: main: *******************]
+[2023-06-15 22:49:19,261 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:49:19,262 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:49:19,263 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:49:19,263 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:49:19,263 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 22:49:19,269 : ERROR: main: ModelTrainerConfig.__init__() missing 4 required positional arguments: 'root_dir', 'data_path', 'max_features', and 'stop_words']
+Traceback (most recent call last):
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\main.py", line 50, in <module>
+    model_trainer.main()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\pipeline\stage_04_model_trainer.py", line 12, in main
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\config\configuration.py", line 59, in get_model_trainer_config
+    model_trainer_config = ModelTrainerConfig(
+                           ^^^^^^^^^^^^^^^^^^^
+TypeError: ModelTrainerConfig.__init__() missing 4 required positional arguments: 'root_dir', 'data_path', 'max_features', and 'stop_words'
+[2023-06-15 22:51:13,418 : INFO: main: *******************]
+[2023-06-15 22:51:13,419 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:51:13,420 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:51:13,420 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:51:13,421 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:51:13,421 : ERROR: main: "'ConfigBox' object has no attribute 'trainingarguments'"]
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'TrainingArguments'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'TrainingArguments'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'TrainingArguments'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'TrainingArguments'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'trainingarguments'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'trainingarguments'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'trainingarguments'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\main.py", line 14, in <module>
+    model_trainer.main()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\pipeline\stage_04_model_trainer.py", line 12, in main
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\config\configuration.py", line 57, in get_model_trainer_config
+    params = self.params.TrainingArguments
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'trainingarguments'"
+[2023-06-15 22:51:35,710 : INFO: main: *******************]
+[2023-06-15 22:51:35,710 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:51:35,712 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:51:35,712 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:51:35,713 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:51:35,713 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 22:51:35,713 : ERROR: main: ModelTrainerConfig.__init__() missing 2 required positional arguments: 'max_features' and 'stop_words']
+Traceback (most recent call last):
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\main.py", line 14, in <module>
+    model_trainer.main()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\pipeline\stage_04_model_trainer.py", line 12, in main
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\config\configuration.py", line 60, in get_model_trainer_config
+    model_trainer_config = ModelTrainerConfig(
+                           ^^^^^^^^^^^^^^^^^^^
+TypeError: ModelTrainerConfig.__init__() missing 2 required positional arguments: 'max_features' and 'stop_words'
+[2023-06-15 22:52:07,135 : INFO: main: *******************]
+[2023-06-15 22:52:07,135 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:52:07,137 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:52:07,137 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:52:07,138 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:52:07,138 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 22:52:07,139 : ERROR: main: [Errno 2] No such file or directory: 'recommendation_data/model_trainer/cleaned_dataset']
+Traceback (most recent call last):
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\main.py", line 14, in <module>
+    model_trainer.main()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.read_csv_file()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\components\model_trainer.py", line 9, in read_csv_file
+    data = pd.read_csv(self.config.root_dir+"/"+"cleaned_dataset")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\AppData\Roaming\Python\Python311\site-packages\pandas\io\parsers\readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\AppData\Roaming\Python\Python311\site-packages\pandas\io\parsers\readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\AppData\Roaming\Python\Python311\site-packages\pandas\io\parsers\readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\AppData\Roaming\Python\Python311\site-packages\pandas\io\parsers\readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\G S SRENATH KUMAR\AppData\Roaming\Python\Python311\site-packages\pandas\io\common.py", line 859, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'recommendation_data/model_trainer/cleaned_dataset'
+[2023-06-15 22:53:59,597 : INFO: main: *******************]
+[2023-06-15 22:53:59,597 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:53:59,599 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:53:59,599 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:53:59,599 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:53:59,600 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 22:53:59,629 : INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-06-15 22:55:46,802 : INFO: main: *******************]
+[2023-06-15 22:55:46,802 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:55:46,803 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:55:46,804 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:55:46,804 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:55:46,804 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 22:55:47,048 : INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-06-15 22:58:36,383 : INFO: main: *******************]
+[2023-06-15 22:58:36,383 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:58:36,384 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:58:36,385 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:58:36,385 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:58:36,385 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 22:58:36,601 : ERROR: main: name 'vectors' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\main.py", line 14, in <module>
+    model_trainer.main()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.count_vectorizer_model()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\components\model_trainer.py", line 15, in count_vectorizer_model
+    similarity = cosine_similarity(vectors)
+                                   ^^^^^^^
+NameError: name 'vectors' is not defined
+[2023-06-15 22:58:45,662 : INFO: main: *******************]
+[2023-06-15 22:58:45,662 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 22:58:45,663 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 22:58:45,664 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 22:58:45,664 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 22:58:45,664 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 22:58:46,554 : INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-06-15 23:01:06,032 : INFO: main: *******************]
+[2023-06-15 23:01:06,033 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 23:01:06,034 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 23:01:06,034 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 23:01:06,035 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 23:01:06,035 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 23:01:06,878 : ERROR: main: name 'pickle' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\main.py", line 14, in <module>
+    model_trainer.main()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.count_vectorizer_model()
+  File "C:\Users\G S SRENATH KUMAR\Downloads\Recommendation System Project\Movie_Recommendation_System\src\Movie_Recommendation_System\components\model_trainer.py", line 16, in count_vectorizer_model
+    pickle.dump(data, open(self.config.root_dir+"/"+'movie_list.pkl', 'wb'))
+    ^^^^^^
+NameError: name 'pickle' is not defined
+[2023-06-15 23:01:18,696 : INFO: main: *******************]
+[2023-06-15 23:01:18,697 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 23:01:18,698 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 23:01:18,698 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 23:01:18,699 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 23:01:18,699 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 23:01:19,579 : INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-06-15 23:02:36,085 : INFO: main: *******************]
+[2023-06-15 23:02:36,085 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 23:02:36,086 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 23:02:36,087 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 23:02:36,087 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 23:02:36,087 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 23:02:37,117 : INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-06-15 23:03:41,108 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-15 23:03:41,109 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 23:03:41,110 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 23:03:41,110 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 23:03:41,110 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-15 23:03:44,672 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8842458
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "950db06cc1904f78fdb5f20b6743e7f2bcc988e04b790bd45a2cb7a676ec7ecf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 150E:1F6C:4E54A:5B861:648B4B77
+Accept-Ranges: bytes
+Date: Thu, 15 Jun 2023 17:33:44 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10233-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686850423.946557,VS0,VE1377
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f17c1dcac3057eb4a30da9eb925d7124ee4e7f79
+Expires: Thu, 15 Jun 2023 17:38:44 GMT
+Source-Age: 1
+
+]
+[2023-06-15 23:03:44,783 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 23:03:44,784 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-15 23:03:44,785 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 23:03:44,785 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 23:03:44,786 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 23:03:44,786 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-15 23:03:44,787 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 23:03:44,787 : INFO: main: >>>> stage Data Transformation stage started <<<<<]
+[2023-06-15 23:03:44,788 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 23:03:44,789 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 23:03:44,789 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 23:03:44,789 : INFO: common: Created directory at: recommendation_data/data_transformation/dataset]
+[2023-06-15 23:03:49,601 : INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-15 23:03:49,601 : INFO: main: *******************]
+[2023-06-15 23:03:49,601 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-15 23:03:49,603 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-15 23:03:49,603 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-15 23:03:49,603 : INFO: common: Created directory at: recommendation_data]
+[2023-06-15 23:03:49,604 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-15 23:03:50,657 : INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]

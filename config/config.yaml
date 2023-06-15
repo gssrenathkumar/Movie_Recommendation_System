@@ -16,3 +16,7 @@ data_validation:
 data_transformation:
   root_dir: recommendation_data/data_transformation/dataset
   data_path: recommendation_data/data_ingestion/dataset
+
+model_trainer:
+  root_dir: recommendation_data/model_trainer
+  data_path: recommendation_data/data_transformation/dataset
