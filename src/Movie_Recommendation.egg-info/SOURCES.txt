@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+src/Movie_Recommendation.egg-info/PKG-INFO
+src/Movie_Recommendation.egg-info/SOURCES.txt
+src/Movie_Recommendation.egg-info/dependency_links.txt
+src/Movie_Recommendation.egg-info/top_level.txt
+src/Movie_Recommendation_System/__init__.py
+src/Movie_Recommendation_System/components/__init__.py
+src/Movie_Recommendation_System/config/__init__.py
+src/Movie_Recommendation_System/config/configuration.py
+src/Movie_Recommendation_System/constants/__init__.py
+src/Movie_Recommendation_System/entity/__init__.py
+src/Movie_Recommendation_System/logging/__init__.py
+src/Movie_Recommendation_System/pipeline/__init__.py
+src/Movie_Recommendation_System/utils/__init__.py
+src/Movie_Recommendation_System/utils/common.py
