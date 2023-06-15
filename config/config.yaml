@@ -11,3 +11,8 @@ data_validation:
   root_dir: recommendation_data/data_validation
   STATUS_FILE: recommendation_data/data_validation/status.txt
   ALL_REQUIRED_FILES: ["dataset"]
+
+
+data_transformation:
+  root_dir: recommendation_data/data_transformation/dataset
+  data_path: recommendation_data/data_ingestion/dataset
