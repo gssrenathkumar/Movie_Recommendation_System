@@ -1,5 +1,5 @@
 from Movie_Recommendation_System.constants import *
-from Movie_Recommendation_System.entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig)
+from Movie_Recommendation_System.entity import (DataIngestionConfig,DataValidationConfig,DataTransformationConfig,ModelTrainerConfig,ModelPredictionConfig)
 from Movie_Recommendation_System.utils.common import *
 
 
@@ -63,3 +63,15 @@ class ConfigurationManager:
 
         )
         return model_trainer_config
+
+    def get_model_prediction_config(self) -> ModelPredictionConfig:
+        config = self.config.model_prediction
+
+        create_directories([config.root_dir])
+
+        model_evaluation_config = ModelPredictionConfig(
+            root_dir=config.root_dir,
+            data_path=config.data_path,
+        )
+
+        return model_evaluation_config

@@ -20,3 +20,7 @@ data_transformation:
 model_trainer:
   root_dir: recommendation_data/model_trainer
   data_path: recommendation_data/data_transformation/dataset
+
+model_prediction:
+  root_dir: recommendation_data/model_prediction
+  data_path: recommendation_data/model_trainer

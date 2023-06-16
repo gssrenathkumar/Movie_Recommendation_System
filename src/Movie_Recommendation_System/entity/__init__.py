@@ -22,3 +22,8 @@ class DataTransformationConfig:
 class ModelTrainerConfig:
     root_dir:Path
     data_path:Path
+
+@dataclass(frozen=True)
+class ModelPredictionConfig:
+    root_dir:Path
+    data_path:Path

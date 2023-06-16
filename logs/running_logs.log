@@ -3188,3 +3188,255 @@ x===========x]
 [2023-06-15 23:03:50,657 : INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
 
 x==========x]
+[2023-06-16 08:17:18,400 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-16 08:17:18,403 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:17:18,409 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:17:18,409 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:17:18,410 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-16 08:17:18,410 : INFO: data_ingestion: File already exists of size: ~ 8635KB]
+[2023-06-16 08:17:18,688 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-16 08:17:18,688 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-16 08:17:18,691 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:17:18,692 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:17:18,693 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:17:18,695 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-16 08:17:18,698 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-16 08:17:18,698 : INFO: main: >>>> stage Data Transformation stage started <<<<<]
+[2023-06-16 08:17:18,701 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:17:18,702 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:17:18,703 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:17:18,705 : INFO: common: Created directory at: recommendation_data/data_transformation/dataset]
+[2023-06-16 08:17:27,830 : INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-16 08:17:27,831 : INFO: main: *******************]
+[2023-06-16 08:17:27,831 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-16 08:17:27,833 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:17:27,834 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:17:27,835 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:17:27,836 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-16 08:17:31,453 : INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-06-16 08:35:34,948 : INFO: main: *******************]
+[2023-06-16 08:35:34,948 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 08:35:34,964 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:35:34,964 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:35:34,964 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:35:34,964 : ERROR: main: "'ConfigBox' object has no attribute 'model_evaluation'"]
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'model_evaluation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'model_evaluation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'model_evaluation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'model_evaluation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'model_evaluation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'model_evaluation'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'model_evaluation'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\Downloads\Movie_Recommendation_System\main.py", line 13, in <module>
+    model_evaluation.main()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\pipeline\stage_05_model_prediction.py", line 11, in main
+    model_evaluation_config = config.get_model_prediction_config()
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\config\configuration.py", line 68, in get_model_prediction_config
+    config = self.config.model_evaluation
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'model_evaluation'"
+[2023-06-16 08:38:56,175 : INFO: main: *******************]
+[2023-06-16 08:38:56,175 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 08:38:56,175 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:38:56,175 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:38:56,175 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:38:56,175 : ERROR: main: "'ConfigBox' object has no attribute 'movie_prediction'"]
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'movie_prediction'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'movie_prediction'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'movie_prediction'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'movie_prediction'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'movie_prediction'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'movie_prediction'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'movie_prediction'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\Downloads\Movie_Recommendation_System\main.py", line 13, in <module>
+    model_evaluation.main()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\pipeline\stage_05_model_prediction.py", line 11, in main
+    model_evaluation_config = config.get_model_prediction_config()
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\config\configuration.py", line 68, in get_model_prediction_config
+    config = self.config.movie_prediction
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'movie_prediction'"
+[2023-06-16 08:39:38,705 : INFO: main: *******************]
+[2023-06-16 08:39:38,705 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 08:39:38,705 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:39:38,705 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:39:38,705 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:39:38,705 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 08:39:38,705 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 08:54:22,195 : INFO: main: *******************]
+[2023-06-16 08:54:22,195 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 08:54:22,210 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:54:22,210 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:54:22,210 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:54:22,210 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 08:54:22,210 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 08:56:57,688 : INFO: main: *******************]
+[2023-06-16 08:56:57,688 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 08:56:57,688 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:56:57,688 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:56:57,688 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:56:57,688 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 08:56:57,688 : ERROR: main: [Errno 2] No such file or directory: 'recommendation_data/model_trainer/s']
+Traceback (most recent call last):
+  File "C:\Users\srena\Downloads\Movie_Recommendation_System\main.py", line 13, in <module>
+    model_evaluation.main()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\pipeline\stage_05_model_prediction.py", line 13, in main
+    model_evaluation_config.load_folder_pickle_files()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\components\model_prediction.py", line 15, in load_folder_pickle_files
+    with open(self.config.data_path+"/"+file_name[0], 'rb') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'recommendation_data/model_trainer/s'
+[2023-06-16 08:58:02,027 : INFO: main: *******************]
+[2023-06-16 08:58:02,027 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 08:58:02,042 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:58:02,042 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:58:02,042 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:58:02,042 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 08:58:02,105 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 08:59:05,292 : INFO: main: *******************]
+[2023-06-16 08:59:05,292 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 08:59:05,292 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 08:59:05,292 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 08:59:05,292 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 08:59:05,292 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 08:59:05,670 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
