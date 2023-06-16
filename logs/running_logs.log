@@ -3440,3 +3440,187 @@ x==========x]
 [2023-06-16 08:59:05,670 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
 
 x==========x]
+[2023-06-16 10:28:57,059 : INFO: main: *******************]
+[2023-06-16 10:28:57,060 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 10:28:57,066 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 10:28:57,067 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 10:28:57,068 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 10:28:57,069 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 10:28:57,466 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 10:29:29,174 : INFO: main: *******************]
+[2023-06-16 10:29:29,175 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 10:29:29,179 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 10:29:29,181 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 10:29:29,182 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 10:29:29,182 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 10:29:29,332 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 10:29:55,100 : INFO: main: *******************]
+[2023-06-16 10:29:55,101 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 10:29:55,107 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 10:29:55,108 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 10:29:55,109 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 10:29:55,110 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 10:29:55,237 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 10:32:08,770 : INFO: main: *******************]
+[2023-06-16 10:32:08,770 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 10:32:08,775 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 10:32:08,777 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 10:32:08,778 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 10:32:08,779 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 10:32:09,137 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:03:00,565 : INFO: main: *******************]
+[2023-06-16 11:03:00,565 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:03:00,568 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:03:00,571 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:03:00,572 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:03:00,573 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:03:00,955 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:08:36,268 : INFO: main: *******************]
+[2023-06-16 11:08:36,268 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:08:36,272 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:08:36,274 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:08:36,275 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:08:36,277 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:08:36,460 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:12:43,756 : INFO: main: *******************]
+[2023-06-16 11:12:43,757 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:12:43,761 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:12:43,762 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:12:43,763 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:12:43,763 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:12:43,886 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:12:52,428 : INFO: main: *******************]
+[2023-06-16 11:12:52,429 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:12:52,432 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:12:52,435 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:12:52,435 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:12:52,436 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:12:52,607 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:13:34,617 : INFO: main: *******************]
+[2023-06-16 11:13:34,618 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:13:34,625 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:13:34,629 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:13:34,630 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:13:34,632 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:13:34,761 : ERROR: main: 4513]
+Traceback (most recent call last):
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py", line 3802, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas\_libs\index.pyx", line 138, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 165, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5745, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5753, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 4513
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\srena\Downloads\Movie_Recommendation_System\main.py", line 13, in <module>
+    model_evaluation.main()
+  File "c:\users\srena\downloads\movie_recommendation_system\src\Movie_Recommendation_System\pipeline\stage_05_model_prediction.py", line 16, in main
+    model_prediction_config.recommendation(movies_list, similarity_pkl, movies_list[value])
+                                                                        ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\pandas\core\frame.py", line 3807, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\srena\AppData\Roaming\Python\Python311\site-packages\pandas\core\indexes\base.py", line 3804, in get_loc
+    raise KeyError(key) from err
+KeyError: 4513
+[2023-06-16 11:14:00,915 : INFO: main: *******************]
+[2023-06-16 11:14:00,915 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:14:00,921 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:14:00,923 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:14:00,925 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:14:00,929 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:14:01,082 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:14:18,841 : INFO: main: *******************]
+[2023-06-16 11:14:18,842 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:14:18,845 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:14:18,850 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:14:18,852 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:14:18,853 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:14:19,007 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:14:35,834 : INFO: main: *******************]
+[2023-06-16 11:14:35,835 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:14:35,840 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:14:35,844 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:14:35,845 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:14:35,846 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:14:35,998 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:19:48,884 : INFO: main: *******************]
+[2023-06-16 11:19:48,884 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:19:48,889 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:19:48,891 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:19:48,891 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:19:48,893 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:19:49,058 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:20:32,947 : INFO: main: *******************]
+[2023-06-16 11:20:32,948 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:20:32,953 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:20:32,955 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:20:32,956 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:20:32,957 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:20:33,119 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:20:51,444 : INFO: main: *******************]
+[2023-06-16 11:20:51,444 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:20:51,446 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:20:51,449 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:20:51,451 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:20:51,452 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:20:51,597 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:21:20,126 : INFO: main: *******************]
+[2023-06-16 11:21:20,127 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:21:20,133 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:21:20,136 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:21:20,138 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:21:20,138 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:21:20,279 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:21:52,340 : INFO: main: *******************]
+[2023-06-16 11:21:52,341 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:21:52,346 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:21:52,348 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:21:52,349 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:21:52,350 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:21:52,487 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2023-06-16 11:22:54,855 : INFO: main: *******************]
+[2023-06-16 11:22:54,856 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-16 11:22:54,864 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 11:22:54,866 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 11:22:54,867 : INFO: common: Created directory at: recommendation_data]
+[2023-06-16 11:22:54,867 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-16 11:22:55,061 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
