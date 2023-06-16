@@ -44,6 +44,7 @@ class DataTransformation:
         movies_df = pd.read_csv(self.config.data_path+"/"+file_list[1])
         credit_df = pd.read_csv(self.config.data_path+"/"+file_list[0])
         df = movies_df.merge(credit_df, on="title")
+        logger.info("CSV files are downloaded and merge successfully")
         return df
     def csv_data_transformation(self,df):
         df = df[["movie_id", "title", "overview", "genres", "keywords", "cast", "crew"]]
@@ -61,11 +62,13 @@ class DataTransformation:
         new_df = df[["movie_id", "title", "tags"]]
         new_df["tags"] = new_df["tags"].apply(lambda x: " ".join(x))
         new_df["tags"] = new_df["tags"].apply(lambda x: x.lower())
+        logger.info("Transformation with function is sucessfully completed")
         return new_df
 
     def store_dataframe_as_csv(self,df):
         file_path = os.path.join(self.config.root_dir+"/"+"cleaned_dataset")
         df.to_csv(file_path, index=False)
+        logger.info("CSV file is stored to Dataframe successfully")
 
 
 

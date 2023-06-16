@@ -14,4 +14,6 @@ class ModelPredictionTrainingPipeline:
         movies_list = model_prediction_config.movie_titles(movies_list_pkl)
         value = random.randint(0,len(movies_list))
         model_prediction_config.recommendation(movies_list, similarity_pkl, movies_list["title"][value])
+        logger.info("Model Prediction Pipeline is Sucessfully Implemeted")
+
 

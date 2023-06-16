@@ -15,5 +15,6 @@ class DataTransformationTrainingPipeline:
         df = data_transformation.read_csv(extracted_file)
         new_df = data_transformation.csv_data_transformation(df)
         data_transformation.store_dataframe_as_csv(new_df)
+        logger.info("Data Transformation Pipeline is Sucessfully Implemeted")
 
 
