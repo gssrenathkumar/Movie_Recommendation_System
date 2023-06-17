@@ -57,3 +57,88 @@ x==========x]
 [2023-06-16 19:22:07,392 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
 
 x==========x]
+[2023-06-18 04:56:33,013 : INFO: main: >>>> stage Data Ingestion stage started <<<<<]
+[2023-06-18 04:56:33,015 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 04:56:33,015 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 04:56:33,016 : INFO: common: Created directory at: recommendation_data]
+[2023-06-18 04:56:33,016 : INFO: common: Created directory at: recommendation_data/data_ingestion]
+[2023-06-18 04:56:37,939 : INFO: data_ingestion: recommendation_data/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 8842458
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "950db06cc1904f78fdb5f20b6743e7f2bcc988e04b790bd45a2cb7a676ec7ecf"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9750:7815:153B8B:1A1671:648E412A
+Accept-Ranges: bytes
+Date: Sat, 17 Jun 2023 23:26:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10221-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1687044394.743454,VS0,VE2957
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c804323036345f8704245ba29ce667ffc2f9c135
+Expires: Sat, 17 Jun 2023 23:31:36 GMT
+Source-Age: 2
+
+]
+[2023-06-18 04:56:38,046 : INFO: data_ingestion: Zip File Extracted Successfully from the path:recommendation_data/data_ingestion\dataset]
+[2023-06-18 04:56:38,046 : INFO: stage_01_data_ingestion: Data Ingestion Pipeline Sucessfully Implemented]
+[2023-06-18 04:56:38,046 : INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<<<
+
+x===========x]
+[2023-06-18 04:56:38,046 : INFO: main: >>>> stage Data Validation stage started <<<<<]
+[2023-06-18 04:56:38,048 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 04:56:38,048 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 04:56:38,049 : INFO: common: Created directory at: recommendation_data]
+[2023-06-18 04:56:38,049 : INFO: common: Created directory at: recommendation_data/data_validation]
+[2023-06-18 04:56:38,050 : INFO: data_validation: Validation status: False]
+[2023-06-18 04:56:38,050 : INFO: data_validation: Validation status: True]
+[2023-06-18 04:56:38,050 : INFO: stage_02_data_validation: Data Validation Pipeline is Sucessfully Implemeted]
+[2023-06-18 04:56:38,051 : INFO: main: >>>>>> stage Data Validation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-18 04:56:38,051 : INFO: main: >>>> stage Data Transformation stage started <<<<<]
+[2023-06-18 04:56:38,052 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 04:56:38,052 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 04:56:38,053 : INFO: common: Created directory at: recommendation_data]
+[2023-06-18 04:56:38,054 : INFO: common: Created directory at: recommendation_data/data_transformation/dataset]
+[2023-06-18 04:56:38,368 : INFO: data_transformation: CSV files are downloaded and merge successfully]
+[2023-06-18 04:56:42,759 : INFO: data_transformation: Transformation with function is sucessfully completed]
+[2023-06-18 04:56:42,799 : INFO: data_transformation: CSV file is stored to Dataframe successfully]
+[2023-06-18 04:56:42,799 : INFO: stage_03_data_transformation: Data Transformation Pipeline is Sucessfully Implemeted]
+[2023-06-18 04:56:42,804 : INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<<<
+
+x===========x]
+[2023-06-18 04:56:42,804 : INFO: main: *******************]
+[2023-06-18 04:56:42,804 : INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-06-18 04:56:42,806 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 04:56:42,806 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 04:56:42,806 : INFO: common: Created directory at: recommendation_data]
+[2023-06-18 04:56:42,807 : INFO: common: Created directory at: recommendation_data/model_trainer]
+[2023-06-18 04:56:45,120 : INFO: model_trainer: Pickle file sucessfully downloaded]
+[2023-06-18 04:56:45,141 : INFO: stage_04_model_trainer: Model Validation Pipeline is Sucessfully Implemeted]
+[2023-06-18 04:56:45,141 : INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2023-06-18 04:56:45,141 : INFO: main: *******************]
+[2023-06-18 04:56:45,142 : INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2023-06-18 04:56:45,143 : INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-18 04:56:45,144 : INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-18 04:56:45,144 : INFO: common: Created directory at: recommendation_data]
+[2023-06-18 04:56:45,144 : INFO: common: Created directory at: recommendation_data/model_prediction]
+[2023-06-18 04:56:45,147 : INFO: model_prediction: Movies list pickle file sucessfully loaded]
+[2023-06-18 04:56:45,197 : INFO: model_prediction: Similarity pickle file sucessfully loaded]
+[2023-06-18 04:56:45,198 : INFO: model_prediction: Movies_title sucessfully loaded]
+[2023-06-18 04:56:45,202 : INFO: model_prediction: Recommendation data is sucessfully written in text file]
+[2023-06-18 04:56:45,202 : INFO: stage_05_model_prediction: Model Prediction Pipeline is Sucessfully Implemeted]
+[2023-06-18 04:56:45,212 : INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
