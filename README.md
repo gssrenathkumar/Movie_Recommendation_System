@@ -6,6 +6,7 @@
   <h1>AI-Powered Movie Recommendation System</h1>
   <p>Welcome to our AI-powered movie recommendation system! Our project focuses on providing personalized movie recommendations based on the given movie name. Using the power of artificial intelligence, we have developed a sophisticated algorithm that analyzes the input movie and generates a list of related movies that are likely to align with your interests.</p>
   
+  
   <h2>Highlights</h2>
   <ul>
     <li>Modular coding approach for better organization, management, and extensibility of the codebase.</li>
